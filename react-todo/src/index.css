@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+
+}
+
+h1 {
+  margin: 20px 0 15px 0;  
+}
+
+#main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+ul>li:hover {
+  background-color: #F5F5F5;
+}
+
+.input-control{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    border: 0px;
+    border-bottom: 2px solid #000;
+	}
+	
+.input-control:focus { 
+     border-style: none;
+
+}
+.form-inline .input-control {
+  width: 50%;
+
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+  background: #dddddd;
+}
+.done>button:hover{
+	color: red;
+}
+
+.undone {
+  color: #61DAFB;
+}
+
+.icon {
+  margin: 6px 10px 6px 0;
+}
